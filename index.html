@@ -1,0 +1,1923 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>Peakoo Academy — Not Just a Course, an Agency Cohort</title>
+  <meta name="description"
+    content="The ultimate beginner-friendly cohort to master Graphic Designing, Website Development, Meta Ads, and Google Business Profile. Powered by Peakoo Agency.">
+  <meta name="keywords"
+    content="graphic design course, website development course, meta ads course, google business profile course, peakoo academy, vijayawada digital agency">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://academy.peakoo.agency/">
+  <meta property="og:title" content="Peakoo Academy — Master Digital Skills That Pay">
+  <meta property="og:description"
+    content="The ultimate beginner-friendly cohort to master Graphic Designing, Website Development, Meta Ads, and Local SEO from real agency practitioners.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23000000'/><path d='M30 50 C 30 38, 45 38, 50 50 C 55 62, 70 62, 70 50 C 70 38, 55 38, 50 50 C 45 62, 30 62, 30 50 Z' fill='none' stroke='%23FF6A00' stroke-width='10' stroke-linecap='round'/></svg>">
+
+  <!-- Google Fonts for Peakoo Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=Nunito+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Outfit:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- SEO Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EducationalOrganization",
+        "name": "Peakoo Academy",
+        "url": "https://academy.peakoo.agency",
+        "parentOrganization": {
+          "@type": "Organization",
+          "name": "Peakoo Agency",
+          "url": "https://peakoo.agency"
+        },
+        "description": "Peakoo Academy is an extension of Peakoo Agency delivering intensive live cohorts in Graphic Design, Web Development, Meta Ads, and Google Business Profile setup.",
+        "email": "success@peakoo.agency"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the duration of the cohort?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The cohort runs for 6 intensive weeks with 2 live classes per week, recorded session access, and weekly project battles."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you teach from the basics?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, all tracks start from scratch and scale to real client campaign delivery."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- ==========================================================================
+       1. FLOATING PILL NAVBAR (Tharun Speaks Signature Pill Style)
+       ========================================================================== -->
+  <div class="floating-navbar-wrap">
+    <header class="floating-navbar" id="floatingNavbar">
+
+      <!-- Brand Logo -->
+      <a href="#hero" class="nav-brand-link" aria-label="Peakoo Academy">
+        <svg width="34" height="26" viewBox="0 0 76 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M 22 25 C 22 13, 37 13, 44 25 C 51 37, 66 37, 66 25 C 66 13, 51 13, 44 25 C 37 37, 22 37, 22 25 Z"
+            stroke="#FF6A00" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+          <polygon points="63,11 75,17 68,28" fill="#FF6A00" />
+        </svg>
+        <span class="nav-brand-text">PEAK<span class="oo-accent">OO</span></span>
+        <span class="nav-brand-tag">ACADEMY</span>
+      </a>
+
+      <!-- Center Pill Links -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu-links">
+          <li><a href="#why-us" class="nav-menu-link">Why Us</a></li>
+          <li><a href="#courses" class="nav-menu-link">Courses</a></li>
+          <li><a href="#curriculum" class="nav-menu-link">What You'll Learn</a></li>
+          <li><a href="#pricing" class="nav-menu-link">Pricing</a></li>
+
+
+        </ul>
+      </nav>
+
+      <!-- Right Join CTA Button -->
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <a href="#pricing" class="btn-nav-join" data-enrol-trigger data-tier="Elite">
+          <span>Join Now</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </a>
+
+        <!-- Hamburger for Mobile -->
+        <button class="mobile-hamburger" id="mobileMenuBtn" aria-label="Open Navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </header>
+  </div>
+
+  <!-- Mobile Drawer Overlay -->
+  <div class="modal-screen-overlay" id="mobileDrawerWrap" style="z-index: 1050; padding: 0;">
+    <div
+      style="background: #0D0D0D; width: 100%; max-width: 340px; height: 100vh; position: absolute; right: 0; padding: 70px 24px 30px; display: flex; flex-direction: column; justify-content: space-between; border-left: 1px solid var(--border-subtle);">
+      <div>
+        <div style="margin-bottom: 26px;">
+          <span class="nav-brand-text">PEAK<span class="oo-accent">OO</span></span>
+          <span class="nav-brand-tag">ACADEMY</span>
+        </div>
+        <ul style="list-style: none; display: flex; flex-direction: column; gap: 16px;">
+          <li><a href="#why-us" class="mobile-menu-link"
+              style="font-family: var(--font-display); font-size: 20px; font-weight: 800; display: block;">Why Us</a>
+          </li>
+          <li><a href="#courses" class="mobile-menu-link"
+              style="font-family: var(--font-display); font-size: 20px; font-weight: 800; display: block;">Courses</a>
+          </li>
+          <li><a href="#curriculum" class="mobile-menu-link"
+              style="font-family: var(--font-display); font-size: 20px; font-weight: 800; display: block;">What You'll
+              Learn</a></li>
+          <li><a href="#pricing" class="mobile-menu-link"
+              style="font-family: var(--font-display); font-size: 20px; font-weight: 800; display: block;">Pricing
+              Plans</a></li>
+          <li><a href="#community" class="mobile-menu-link"
+              style="font-family: var(--font-display); font-size: 20px; font-weight: 800; display: block;">Community</a>
+          </li>
+          <li><a href="#stories" class="mobile-menu-link"
+              style="font-family: var(--font-display); font-size: 20px; font-weight: 800; display: block;">Student
+              Stories</a></li>
+          <li><a href="#faq" class="mobile-menu-link"
+              style="font-family: var(--font-display); font-size: 20px; font-weight: 800; display: block;">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <a href="#pricing" class="btn-hero-primary" style="width: 100%; justify-content: center; margin-bottom: 10px;"
+          data-enrol-trigger>Join Cohort</a>
+        <a href="https://wa.me/919999999999?text=Hi%20Peakoo%20Academy%2C%20I%20want%20to%20know%20more%20about%20your%20upcoming%20cohorts"
+          target="_blank" rel="noopener" class="btn-hero-secondary"
+          style="width: 100%; justify-content: center; background:#25D366; border-color:#25D366;">WhatsApp Us</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       2. HERO SECTION (Tharun Speaks Centered Layout + Glow Ambiance)
+       ========================================================================== -->
+  <section class="hero-wrapper" id="hero">
+    <div class="hero-glow-ambiance"></div>
+    <div class="container hero-content">
+
+      <!-- Top Pill Tag -->
+      <div class="hero-cohort-pill">
+        <span class="pulse-dot"></span>
+        <span>NOT JUST A COURSE • LIVE COHORT STARTS NOVEMBER 15</span>
+      </div>
+
+      <div class="hero-agency-tagline">Peakoo Agency Presents</div>
+
+      <!-- Main Headline with Archivo Typography & Single Highlighted Word -->
+      <h1 class="hero-main-title">
+        LEARN THE SKILLS THAT ACTUALLY <span class="text-orange">PAY</span>
+      </h1>
+
+      <!-- Subtext (Short, confident, human) -->
+      <p class="hero-sub-text">
+        The ultimate beginner-friendly agency cohort to kickstart your freelance career. Master Graphic Designing,
+        Website Development, Meta Ads, and Local SEO from professionals running real client campaigns.
+      </p>
+
+      <!-- 2 CTAs -->
+      <div class="hero-btn-row">
+        <a href="#pricing" class="btn-hero-primary" data-enrol-trigger data-tier="Elite">
+          <span>Join Now</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </a>
+        <a href="#curriculum" class="btn-hero-secondary">
+          <span>What You'll Learn</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M19 9l-7 7-7-7" />
+          </svg>
+        </a>
+      </div>
+
+      <!-- LIVE COHORT COUNTDOWN & SEAT RESERVATION BAR (Added Value) -->
+      <div class="hero-urgency-card">
+        <div class="urgency-top-row">
+          <div class="countdown-timer-units" id="cohortCountdown">
+            <div class="timer-box">
+              <div class="timer-val" id="cntDays">12</div>
+              <div class="timer-lbl">Days</div>
+            </div>
+            <div class="timer-divider">:</div>
+            <div class="timer-box">
+              <div class="timer-val" id="cntHours">18</div>
+              <div class="timer-lbl">Hours</div>
+            </div>
+            <div class="timer-divider">:</div>
+            <div class="timer-box">
+              <div class="timer-val" id="cntMins">44</div>
+              <div class="timer-lbl">Mins</div>
+            </div>
+            <div class="timer-divider">:</div>
+            <div class="timer-box">
+              <div class="timer-val" id="cntSecs">20</div>
+              <div class="timer-lbl">Secs</div>
+            </div>
+          </div>
+          <div class="seat-status-meta">
+            ⚡ <strong>14 of 20 Seats Claimed</strong> (70% Full)
+          </div>
+        </div>
+        <div class="seat-progress-track">
+          <div class="seat-progress-fill" style="width: 70%;"></div>
+        </div>
+      </div>
+
+      <!-- HERO VIDEO SHOWCASE PLAYER (Tharun Speaks Style Video Teaser) -->
+      <div class="hero-video-showcase" id="openVideoTourBtn" title="Click to watch 2-min cohort walkthrough">
+        <div class="video-thumb-gradient"></div>
+        <div class="video-mockup-content">
+          <div class="video-play-btn-circle">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor">
+              <polygon points="6 3 20 12 6 21 6 3" />
+            </svg>
+          </div>
+          <h3 class="video-teaser-title">See Inside The 6-Week Agency Cohort</h3>
+          <p class="video-teaser-sub">Watch how we turn beginners into job-ready freelancers &bull; 2 Min Tour</p>
+        </div>
+      </div>
+
+      <!-- Trust Social Proof -->
+      <div class="hero-social-proof">
+        <span class="stars">★★★★★</span>
+        <span>Trusted by <strong>100+ businesses</strong> across India with Peakoo Agency.</span>
+      </div>
+
+      <!-- 4 Stat Cards -->
+      <div class="hero-stat-cards" id="why-us">
+        <div class="stat-card-item">
+          <div class="stat-card-number">4<span class="accent">+</span></div>
+          <div class="stat-card-label">Market-Ready Tracks</div>
+        </div>
+        <div class="stat-card-item">
+          <div class="stat-card-number">100<span class="accent">+</span></div>
+          <div class="stat-card-label">Live Client Case Studies</div>
+        </div>
+        <div class="stat-card-item">
+          <div class="stat-card-number">1:1</div>
+          <div class="stat-card-label">Direct Mentor Reviews</div>
+        </div>
+        <div class="stat-card-item">
+          <div class="stat-card-number">₹50K<span class="accent">+</span></div>
+          <div class="stat-card-label">Avg Monthly Freelance Potential</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       TOOLS & TECH STACK MARQUEE STRIP (Infinite Scrolling Agency Tools)
+       ========================================================================== -->
+  <section class="tools-marquee-section">
+    <div class="tools-marquee-track">
+      <!-- Item 1 -->
+      <div class="tool-marquee-item">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 14.93V18h-2v-1.07A6 6 0 0 1 6 11h2a4 4 0 0 0 4 4 4 4 0 0 0 4-4h2a6 6 0 0 1-5 5.93z" />
+        </svg>
+        <span>Figma Pro UI/UX</span>
+      </div>
+      <!-- Item 2 -->
+      <div class="tool-marquee-item">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <rect width="18" height="18" x="3" y="3" rx="4" />
+        </svg>
+        <span>Adobe Photoshop</span>
+      </div>
+      <!-- Item 3 -->
+      <div class="tool-marquee-item">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <polygon points="12 2 2 22 22 22" />
+        </svg>
+        <span>Adobe Illustrator</span>
+      </div>
+      <!-- Item 4 -->
+      <div class="tool-marquee-item">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <circle cx="12" cy="12" r="10" />
+        </svg>
+        <span>Canva Pro Studio</span>
+      </div>
+      <!-- Item 5 -->
+      <div class="tool-marquee-item">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="16 18 22 12 16 6" />
+          <polyline points="8 6 2 12 8 18" />
+        </svg>
+        <span>HTML5 &amp; CSS3 Modern</span>
+      </div>
+      <!-- Item 6 -->
+      <div class="tool-marquee-item">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <circle cx="12" cy="12" r="9" />
+        </svg>
+        <span>WordPress CMS</span>
+      </div>
+      <!-- Item 7 -->
+      <div class="tool-marquee-item">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <rect width="16" height="16" x="4" y="4" rx="3" />
+        </svg>
+        <span>Elementor Builder</span>
+      </div>
+      <!-- Item 8 -->
+      <div class="tool-marquee-item">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 14h-2v-4h2zm0-6h-2V8h2z" />
+        </svg>
+        <span>Meta Ads Manager</span>
+      </div>
+      <!-- Item 9 -->
+      <div class="tool-marquee-item">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+          <circle cx="12" cy="10" r="3" />
+        </svg>
+        <span>Google Business Profile SEO</span>
+      </div>
+      <!-- Item 10 -->
+      <div class="tool-marquee-item">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 2l8 4v6c0 5.25-3.5 10.25-8 12-4.5-1.75-8-6.75-8-12V6z" />
+        </svg>
+        <span>Cloudflare CDN &amp; SSL</span>
+      </div>
+
+      <!-- Duplicate for Infinite Loop -->
+      <div class="tool-marquee-item">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 14.93V18h-2v-1.07A6 6 0 0 1 6 11h2a4 4 0 0 0 4 4 4 4 0 0 0 4-4h2a6 6 0 0 1-5 5.93z" />
+        </svg>
+        <span>Figma Pro UI/UX</span>
+      </div>
+      <div class="tool-marquee-item">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <rect width="18" height="18" x="3" y="3" rx="4" />
+        </svg>
+        <span>Adobe Photoshop</span>
+      </div>
+      <div class="tool-marquee-item">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <polygon points="12 2 2 22 22 22" />
+        </svg>
+        <span>Adobe Illustrator</span>
+      </div>
+      <div class="tool-marquee-item">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <circle cx="12" cy="12" r="10" />
+        </svg>
+        <span>Canva Pro Studio</span>
+      </div>
+      <div class="tool-marquee-item">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="16 18 22 12 16 6" />
+          <polyline points="8 6 2 12 8 18" />
+        </svg>
+        <span>HTML5 &amp; CSS3 Modern</span>
+      </div>
+      <div class="tool-marquee-item">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <circle cx="12" cy="12" r="9" />
+        </svg>
+        <span>WordPress CMS</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       3. COURSES SECTION (4 Tracks linking to curriculum)
+       ========================================================================== -->
+  <section class="section" id="courses">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-pill-tag">Specialized Paths</div>
+        <h2 class="section-title">CHOOSE YOUR HIGH-VALUE <span class="text-orange">TRACK</span>.</h2>
+        <p class="section-subtitle">
+          Every track is structured around real business deliverables. Click any track to view its full 6-module
+          curriculum.
+        </p>
+      </div>
+
+      <div class="courses-showcase-grid">
+
+        <!-- Track 01 -->
+        <div class="course-track-box" data-target-track="graphic-design">
+          <div>
+            <span class="course-track-num">TRACK 01</span>
+            <div class="course-track-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+              </svg>
+            </div>
+            <h3 class="course-track-title">Graphic Designing</h3>
+            <p class="course-track-desc">Master color theory, brand marks, viral social carousels, and portfolio
+              packaging in Canva, Photoshop &amp; Illustrator.</p>
+          </div>
+          <div class="course-track-action">
+            <span>Inspect 6 Modules</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </div>
+        </div>
+
+        <!-- Track 02 -->
+        <div class="course-track-box" data-target-track="web-dev">
+          <div>
+            <span class="course-track-num">TRACK 02</span>
+            <div class="course-track-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="16 18 22 12 16 6" />
+                <polyline points="8 6 2 12 8 18" />
+              </svg>
+            </div>
+            <h3 class="course-track-title">Website Development</h3>
+            <p class="course-track-desc">Build blazing-fast responsive websites with HTML, CSS, WordPress, speed
+              optimization, and lead capture funnels.</p>
+          </div>
+          <div class="course-track-action">
+            <span>Inspect 6 Modules</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </div>
+        </div>
+
+        <!-- Track 03 -->
+        <div class="course-track-box" data-target-track="meta-ads">
+          <div>
+            <span class="course-track-num">TRACK 03</span>
+            <div class="course-track-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 20V10M18 20V4M6 20v-4" />
+              </svg>
+            </div>
+            <h3 class="course-track-title">Meta Ads Mastery</h3>
+            <p class="course-track-desc">Run profitable Facebook &amp; Instagram ad campaigns that drive qualified
+              leads, click-to-WhatsApp funnels, and real client revenue.</p>
+          </div>
+          <div class="course-track-action">
+            <span>Inspect 6 Modules</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </div>
+        </div>
+
+        <!-- Track 04 -->
+        <div class="course-track-box" data-target-track="gbp">
+          <div>
+            <span class="course-track-num">TRACK 04</span>
+            <div class="course-track-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </div>
+            <h3 class="course-track-title">Google Business Profile</h3>
+            <p class="course-track-desc">Rank local businesses in Google Map 3-Pack, optimize keywords, drive phone
+              calls, and close monthly retainer retainers.</p>
+          </div>
+          <div class="course-track-action">
+            <span>Inspect 6 Modules</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       4. "WE TEACH YOU EVERYTHING" / "WHAT YOU'LL LEARN IN THIS COHORT"
+       ========================================================================== -->
+  <section class="section curriculum-wrap" id="curriculum">
+    <div class="container">
+
+      <div class="section-header">
+        <div class="section-pill-tag">Why This Cohort?</div>
+        <h2 class="section-title">WHAT YOU'LL LEARN IN THIS <span class="text-orange">COHORT</span></h2>
+        <div
+          style="font-family: var(--font-display); font-size: clamp(1.4rem, 3vw, 2.2rem); font-weight: 900; color: #FFFFFF; text-transform: uppercase; margin-bottom: 14px;">
+          WE TEACH YOU <span class="text-orange">EVERYTHING</span>.
+        </div>
+        <p class="section-subtitle">
+          Not just theory, but how to land your first freelance gig, how to run real client campaigns, how to grow on
+          socials, and ultimately build reliable revenue.
+        </p>
+      </div>
+
+      <!-- 4 Numbered Pillars Bar -->
+      <div class="curriculum-pillars-bar" role="tablist">
+
+        <button class="pillar-tab-btn active" data-track="graphic-design" role="tab">
+          <div class="pillar-num">01</div>
+          <div>
+            <div class="pillar-title">Graphic Designing</div>
+            <div class="pillar-sub">Brand &amp; Social Creatives</div>
+          </div>
+        </button>
+
+        <button class="pillar-tab-btn" data-track="web-dev" role="tab">
+          <div class="pillar-num">02</div>
+          <div>
+            <div class="pillar-title">Website Dev</div>
+            <div class="pillar-sub">Responsive &amp; WordPress</div>
+          </div>
+        </button>
+
+        <button class="pillar-tab-btn" data-track="meta-ads" role="tab">
+          <div class="pillar-num">03</div>
+          <div>
+            <div class="pillar-title">Meta Ads</div>
+            <div class="pillar-sub">Lead Gen &amp; WhatsApp</div>
+          </div>
+        </button>
+
+        <button class="pillar-tab-btn" data-track="gbp" role="tab">
+          <div class="pillar-num">04</div>
+          <div>
+            <div class="pillar-title">Google Business</div>
+            <div class="pillar-sub">Local 3-Pack Rankings</div>
+          </div>
+        </button>
+
+      </div>
+
+      <!-- ================= TRACK 1: GRAPHIC DESIGNING ================= -->
+      <div class="track-module-panel active" id="track-graphic-design" role="tabpanel">
+
+        <div class="curriculum-banner-card">
+          <div class="curriculum-banner-info">
+            <h3>Graphic Designing <span class="text-orange">Track</span></h3>
+            <p>Master the tools and visual psychology used by top agencies to create identities, viral social carousels,
+              and client branding packs.</p>
+          </div>
+          <div class="curriculum-pills-row">
+            <span class="curriculum-badge-pill">🕒 6 Weeks</span>
+            <span class="curriculum-badge-pill">🎯 12 Live Classes</span>
+            <span class="curriculum-badge-pill">🛠️ Canva, Photoshop &amp; Illustrator</span>
+          </div>
+        </div>
+
+        <div class="modules-six-grid">
+          <div class="module-box-card">
+            <div>
+              <span class="module-badge-num">MODULE 01</span>
+              <h4 class="module-box-title">Design Basics &amp; Colour Theory</h4>
+              <ul class="module-bullets-list">
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Visual balance, hierarchy, whitespace &amp; focal points</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Colour psychology, HSL harmonies &amp; brand tones</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Building accessible client colour swatches</span></li>
+              </ul>
+            </div>
+            <div class="module-tools-footer"><span class="module-tool-chip">Foundations</span><span
+                class="module-tool-chip">Figma</span></div>
+          </div>
+
+          <div class="module-box-card">
+            <div>
+              <span class="module-badge-num">MODULE 02</span>
+              <h4 class="module-box-title">Typography &amp; Layout Systems</h4>
+              <ul class="module-bullets-list">
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Font pairing: Serif, Sans-Serif &amp; Bold Display</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Grid rules, leading, tracking &amp; alignment hierarchy</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Editorial, banner &amp; modern web layout principles</span></li>
+              </ul>
+            </div>
+            <div class="module-tools-footer"><span class="module-tool-chip">Typography</span><span
+                class="module-tool-chip">Grid Layouts</span></div>
+          </div>
+
+          <div class="module-box-card">
+            <div>
+              <span class="module-badge-num">MODULE 03</span>
+              <h4 class="module-box-title">Logo &amp; Brand Identity</h4>
+              <ul class="module-bullets-list">
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Wordmarks, lettermarks &amp; abstract symbols</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Vector pen tool mastery &amp; geometric precision</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Creating professional brand guideline decks</span></li>
+              </ul>
+            </div>
+            <div class="module-tools-footer"><span class="module-tool-chip">Illustrator</span><span
+                class="module-tool-chip">Vector Art</span></div>
+          </div>
+
+          <div class="module-box-card">
+            <div>
+              <span class="module-badge-num">MODULE 04</span>
+              <h4 class="module-box-title">Social Media Creatives</h4>
+              <ul class="module-bullets-list">
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Scroll-stopping hooks, thumbnails &amp; carousel slides</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Photo manipulation, subject cutout &amp; light grading</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>High-converting ad static designs for Instagram/Meta</span></li>
+              </ul>
+            </div>
+            <div class="module-tools-footer"><span class="module-tool-chip">Photoshop</span><span
+                class="module-tool-chip">Social Formats</span></div>
+          </div>
+
+          <div class="module-box-card">
+            <div>
+              <span class="module-badge-num">MODULE 05</span>
+              <h4 class="module-box-title">Essential Tools (Canva, PS, AI)</h4>
+              <ul class="module-bullets-list">
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Canva Pro for rapid turnaround &amp; client handoff</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Photoshop layer masks, blending modes &amp; mockups</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Illustrator pathfinders, export presets &amp; SVG tuning</span></li>
+              </ul>
+            </div>
+            <div class="module-tools-footer"><span class="module-tool-chip">Workflow</span><span
+                class="module-tool-chip">Shortcuts</span></div>
+          </div>
+
+          <div class="module-box-card">
+            <div>
+              <span class="module-badge-num">MODULE 06</span>
+              <h4 class="module-box-title">Portfolio &amp; Client Briefs</h4>
+              <ul class="module-bullets-list">
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Working on live simulated briefs from Peakoo Agency</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Publishing a conversion-focused Behance portfolio</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Pricing design services &amp; writing freelance proposals</span></li>
+              </ul>
+            </div>
+            <div class="module-tools-footer"><span class="module-tool-chip">Live Briefs</span><span
+                class="module-tool-chip">Portfolio</span></div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ================= TRACK 2: WEBSITE DEVELOPMENT ================= -->
+      <div class="track-module-panel" id="track-web-dev" role="tabpanel">
+
+        <div class="curriculum-banner-card">
+          <div class="curriculum-banner-info">
+            <h3>Website Development <span class="text-orange">Track</span></h3>
+            <p>From visual wireframes to lightning-fast production websites that convert visitors into leads. Built with
+              modern code and agency builder workflows.</p>
+          </div>
+          <div class="curriculum-pills-row">
+            <span class="curriculum-badge-pill">🕒 6 Weeks</span>
+            <span class="curriculum-badge-pill">🎯 12 Live Classes</span>
+            <span class="curriculum-badge-pill">🛠️ HTML, CSS, WordPress, Speed</span>
+          </div>
+        </div>
+
+        <div class="modules-six-grid">
+          <div class="module-box-card">
+            <div>
+              <span class="module-badge-num">MODULE 01</span>
+              <h4 class="module-box-title">Planning &amp; Wireframes</h4>
+              <ul class="module-bullets-list">
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Information architecture, user flow &amp; conversion sitemaps</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Figma wireframing: low-fidelity to interactive prototype</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Hero section psychology &amp; CTA placement formulas</span></li>
+              </ul>
+            </div>
+            <div class="module-tools-footer"><span class="module-tool-chip">Figma</span><span
+                class="module-tool-chip">UX Architecture</span></div>
+          </div>
+
+          <div class="module-box-card">
+            <div>
+              <span class="module-badge-num">MODULE 02</span>
+              <h4 class="module-box-title">HTML, CSS, Responsive Design</h4>
+              <ul class="module-bullets-list">
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Semantic HTML5, clean hierarchy &amp; accessibility tags</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Modern CSS Flexbox, Grid, custom properties &amp; keyframes</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Mobile-first fluid responsiveness (tested at 360px)</span></li>
+              </ul>
+            </div>
+            <div class="module-tools-footer"><span class="module-tool-chip">HTML5 / CSS3</span><span
+                class="module-tool-chip">Mobile First</span></div>
+          </div>
+
+          <div class="module-box-card">
+            <div>
+              <span class="module-badge-num">MODULE 03</span>
+              <h4 class="module-box-title">WordPress &amp; Builder Workflow</h4>
+              <ul class="module-bullets-list">
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Clean WordPress setup, database config &amp; security</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Elementor &amp; Gutenberg builder speed workflows</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Dynamic headers, footers &amp; global design systems</span></li>
+              </ul>
+            </div>
+            <div class="module-tools-footer"><span class="module-tool-chip">WordPress</span><span
+                class="module-tool-chip">Builders</span></div>
+          </div>
+
+          <div class="module-box-card">
+            <div>
+              <span class="module-badge-num">MODULE 04</span>
+              <h4 class="module-box-title">Speed, SEO &amp; Mobile Optimisation</h4>
+              <ul class="module-bullets-list">
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Target PageSpeed 90+ on mobile: caching &amp; minify</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>On-page SEO: Meta titles, clean slugs &amp; JSON-LD schema</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Next-gen WebP compression &amp; responsive image sizes</span></li>
+              </ul>
+            </div>
+            <div class="module-tools-footer"><span class="module-tool-chip">PageSpeed 90+</span><span
+                class="module-tool-chip">SEO Schema</span></div>
+          </div>
+
+          <div class="module-box-card">
+            <div>
+              <span class="module-badge-num">MODULE 05</span>
+              <h4 class="module-box-title">Forms, WhatsApp &amp; Lead Capture</h4>
+              <ul class="module-bullets-list">
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Interactive lead capture forms with instant validation</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Floating WhatsApp chat buttons with pre-filled text</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Webhook routing to Google Sheets &amp; email alerts</span></li>
+              </ul>
+            </div>
+            <div class="module-tools-footer"><span class="module-tool-chip">Lead Funnels</span><span
+                class="module-tool-chip">WhatsApp API</span></div>
+          </div>
+
+          <div class="module-box-card">
+            <div>
+              <span class="module-badge-num">MODULE 06</span>
+              <h4 class="module-box-title">Launch, Hosting &amp; Handover</h4>
+              <ul class="module-bullets-list">
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>DNS records, Cloudflare CDN &amp; automatic SSL certs</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Production migration, backup routines &amp; security locks</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Recording Loom walkthroughs &amp; pitching maintenance</span></li>
+              </ul>
+            </div>
+            <div class="module-tools-footer"><span class="module-tool-chip">DNS &amp; Cloud</span><span
+                class="module-tool-chip">Maintenance</span></div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ================= TRACK 3: META ADS ================= -->
+      <div class="track-module-panel" id="track-meta-ads" role="tabpanel">
+
+        <div class="curriculum-banner-card">
+          <div class="curriculum-banner-info">
+            <h3>Meta Ads Mastery <span class="text-orange">Track</span></h3>
+            <p>Run paid campaigns that generate actual profits, not just empty clicks. Master audience targeting,
+              high-converting copy, lead forms, and scaling.</p>
+          </div>
+          <div class="curriculum-pills-row">
+            <span class="curriculum-badge-pill">🕒 6 Weeks</span>
+            <span class="curriculum-badge-pill">🎯 12 Live Classes</span>
+            <span class="curriculum-badge-pill">🛠️ Meta Business Suite &amp; Pixel</span>
+          </div>
+        </div>
+
+        <div class="modules-six-grid">
+          <div class="module-box-card">
+            <div>
+              <span class="module-badge-num">MODULE 01</span>
+              <h4 class="module-box-title">Business Suite Setup</h4>
+              <ul class="module-bullets-list">
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Business Manager architecture, ad accounts &amp; assets</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>2FA setup, billing safety &amp; preventing ad bans</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Meta Pixel &amp; Conversions API (CAPI) implementation</span></li>
+              </ul>
+            </div>
+            <div class="module-tools-footer"><span class="module-tool-chip">Business Manager</span><span
+                class="module-tool-chip">Pixel CAPI</span></div>
+          </div>
+
+          <div class="module-box-card">
+            <div>
+              <span class="module-badge-num">MODULE 02</span>
+              <h4 class="module-box-title">Audience &amp; Offer Strategy</h4>
+              <ul class="module-bullets-list">
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Cold, Warm &amp; Retargeting audience structures</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Advantage+ audience vs precise interest stacks</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Crafting no-brainer, high-ticket client offers</span></li>
+              </ul>
+            </div>
+            <div class="module-tools-footer"><span class="module-tool-chip">Audiences</span><span
+                class="module-tool-chip">Offer Craft</span></div>
+          </div>
+
+          <div class="module-box-card">
+            <div>
+              <span class="module-badge-num">MODULE 03</span>
+              <h4 class="module-box-title">Ad Creative &amp; Copy</h4>
+              <ul class="module-bullets-list">
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Hook-Hold-Payoff framework for high CTR video ads</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Direct response copywriting: PAS, BAB &amp; AIDA formulas</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>A/B testing creatives to eliminate ad fatigue</span></li>
+              </ul>
+            </div>
+            <div class="module-tools-footer"><span class="module-tool-chip">Ad Copy</span><span
+                class="module-tool-chip">Creative Testing</span></div>
+          </div>
+
+          <div class="module-box-card">
+            <div>
+              <span class="module-badge-num">MODULE 04</span>
+              <h4 class="module-box-title">Campaign Structure &amp; Budgets</h4>
+              <ul class="module-bullets-list">
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>ABO vs CBO budget allocation methodologies</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Testing on low budgets (₹300 - ₹500/day) safely</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Reels vs Stories vs Feeds placement optimizations</span></li>
+              </ul>
+            </div>
+            <div class="module-tools-footer"><span class="module-tool-chip">ABO / CBO</span><span
+                class="module-tool-chip">Budget Control</span></div>
+          </div>
+
+          <div class="module-box-card">
+            <div>
+              <span class="module-badge-num">MODULE 05</span>
+              <h4 class="module-box-title">Lead Forms &amp; WhatsApp Ads</h4>
+              <ul class="module-bullets-list">
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Instant Meta lead forms with qualifying questions</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Direct Click-to-WhatsApp messaging campaigns</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Instant WhatsApp alerts to clients when a lead signs</span></li>
+              </ul>
+            </div>
+            <div class="module-tools-footer"><span class="module-tool-chip">Instant Forms</span><span
+                class="module-tool-chip">WhatsApp Funnels</span></div>
+          </div>
+
+          <div class="module-box-card">
+            <div>
+              <span class="module-badge-num">MODULE 06</span>
+              <h4 class="module-box-title">Tracking, Reports, Scaling</h4>
+              <ul class="module-bullets-list">
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Interpreting CPA, ROAS, CTR &amp; Cost Per Lead</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Vertical budget scale (+20%) vs horizontal scaling</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Automating professional monthly PDF client reports</span></li>
+              </ul>
+            </div>
+            <div class="module-tools-footer"><span class="module-tool-chip">Analytics</span><span
+                class="module-tool-chip">Scale Rules</span></div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ================= TRACK 4: GOOGLE BUSINESS PROFILE ================= -->
+      <div class="track-module-panel" id="track-gbp" role="tabpanel">
+
+        <div class="curriculum-banner-card">
+          <div class="curriculum-banner-info">
+            <h3>Google Business Profile <span class="text-orange">Track</span></h3>
+            <p>The fastest digital skill to monetize. Help doctors, lawyers, clinics, and local stores rank in Google
+              Map 3-Pack and command recurring monthly retainers.</p>
+          </div>
+          <div class="curriculum-pills-row">
+            <span class="curriculum-badge-pill">🕒 6 Weeks</span>
+            <span class="curriculum-badge-pill">🎯 12 Live Classes</span>
+            <span class="curriculum-badge-pill">🛠️ Google Maps &amp; Local SEO</span>
+          </div>
+        </div>
+
+        <div class="modules-six-grid">
+          <div class="module-box-card">
+            <div>
+              <span class="module-badge-num">MODULE 01</span>
+              <h4 class="module-box-title">Profile Creation &amp; Verification</h4>
+              <ul class="module-bullets-list">
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Storefront vs Service Area profile architecture</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Video verification, phone verification &amp; instant tricks</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Reinstating suspended profiles &amp; Google support appeals</span></li>
+              </ul>
+            </div>
+            <div class="module-tools-footer"><span class="module-tool-chip">Verification</span><span
+                class="module-tool-chip">Compliance</span></div>
+          </div>
+
+          <div class="module-box-card">
+            <div>
+              <span class="module-badge-num">MODULE 02</span>
+              <h4 class="module-box-title">Categories, Services, Keywords</h4>
+              <ul class="module-bullets-list">
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Primary vs secondary category impact on local search</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Strategic keyword optimization in titles without bans</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Building custom service menus with price tags</span></li>
+              </ul>
+            </div>
+            <div class="module-tools-footer"><span class="module-tool-chip">Categories</span><span
+                class="module-tool-chip">Keyword Mining</span></div>
+          </div>
+
+          <div class="module-box-card">
+            <div>
+              <span class="module-badge-num">MODULE 03</span>
+              <h4 class="module-box-title">Photos, Posts &amp; Q&amp;A</h4>
+              <ul class="module-bullets-list">
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Geo-tagging EXIF GPS data on real client photos</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Weekly promotional updates that signal activity to Google</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Seeding keyword-rich questions &amp; authoritative answers</span></li>
+              </ul>
+            </div>
+            <div class="module-tools-footer"><span class="module-tool-chip">Geo-Tagging</span><span
+                class="module-tool-chip">Q&amp;A Strategy</span></div>
+          </div>
+
+          <div class="module-box-card">
+            <div>
+              <span class="module-badge-num">MODULE 04</span>
+              <h4 class="module-box-title">Review Strategy &amp; Defense</h4>
+              <ul class="module-bullets-list">
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Automated WhatsApp review generation funnels</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Replying with localized keywords to strengthen ranking</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Flagging, reporting &amp; legally disputing fake reviews</span></li>
+              </ul>
+            </div>
+            <div class="module-tools-footer"><span class="module-tool-chip">Reviews Funnel</span><span
+                class="module-tool-chip">Reputation</span></div>
+          </div>
+
+          <div class="module-box-card">
+            <div>
+              <span class="module-badge-num">MODULE 05</span>
+              <h4 class="module-box-title">Local SEO Ranking Basics</h4>
+              <ul class="module-bullets-list">
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>3 Pillars: Proximity, Prominence &amp; Search Relevance</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>NAP consistency across top Indian business directories</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Connecting website landing pages to double map ranking</span></li>
+              </ul>
+            </div>
+            <div class="module-tools-footer"><span class="module-tool-chip">Map 3-Pack</span><span
+                class="module-tool-chip">Citations</span></div>
+          </div>
+
+          <div class="module-box-card">
+            <div>
+              <span class="module-badge-num">MODULE 06</span>
+              <h4 class="module-box-title">Client Reporting &amp; Retainers</h4>
+              <ul class="module-bullets-list">
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Tracking calls, directions &amp; website clicks in Insights</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Walking into local stores with a free 1-page map audit</span></li>
+                <li class="module-bullet-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg><span>Pitching setup fees (₹5,000) + recurring retainers (₹3K/mo)</span></li>
+              </ul>
+            </div>
+            <div class="module-tools-footer"><span class="module-tool-chip">Monthly Retainers</span><span
+                class="module-tool-chip">Pitch Deck</span></div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       5. THE BEST PRICES EVER (Pricing Section in Tharun Speaks Style)
+       ========================================================================== -->
+  <section class="section" id="pricing">
+    <div class="container">
+
+      <div class="section-header">
+        <div class="section-pill-tag">Cohort Investment</div>
+        <h2 class="section-title">THE BEST PRICES <span class="text-orange">EVER</span></h2>
+        <p class="section-subtitle">
+          Pick your plan and start building today. One flat fee. No hidden surprises.
+        </p>
+      </div>
+
+      <div class="pricing-cards-container">
+
+        <!-- ESSENTIAL (Single Track) -->
+        <div class="pricing-box-card">
+          <div>
+            <h3 class="tier-title-h3">ESSENTIAL</h3>
+            <p class="tier-description">For students passionate about mastering one high-income skill track.</p>
+            <div class="price-row-display">
+              <span class="active-price-text">₹4,999</span>
+              <span class="striked-price-text">₹8,000</span>
+              <span class="gst-text-tag">+GST</span>
+            </div>
+            <ul class="tier-features-check-list">
+              <li class="tier-check-item included"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg><span>Pick <strong>Any 1 Course Track</strong></span></li>
+              <li class="tier-check-item included"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg><span>12 Studio Quality Live Classes</span></li>
+              <li class="tier-check-item included"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg><span>Access to Student Community</span></li>
+              <li class="tier-check-item included"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg><span>Lifetime Recordings &amp; Resources</span></li>
+              <li class="tier-check-item excluded"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2">
+                  <line x1="18" y1="6" x2="6" y2="18" />
+                  <line x1="6" y1="6" x2="18" y2="18" />
+                </svg><span>Dedicated 1:1 Working Mentor</span></li>
+              <li class="tier-check-item excluded"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2">
+                  <line x1="18" y1="6" x2="6" y2="18" />
+                  <line x1="6" y1="6" x2="18" y2="18" />
+                </svg><span>Agency Client Referral Access</span></li>
+            </ul>
+          </div>
+          <a href="#enrol" class="btn-pricing-cta btn-pricing-secondary" data-enrol-trigger data-tier="Single Track">
+            <span>Join Essential</span>
+          </a>
+        </div>
+
+        <!-- ELITE (2 Courses) - Featured / Most Popular -->
+        <div class="pricing-box-card featured-card">
+          <div class="pricing-popular-pill">MOST POPULAR</div>
+          <div>
+            <h3 class="tier-title-h3 text-orange">ELITE TIER</h3>
+            <p class="tier-description">For creative minds eager to excel in multiple complementary skills.</p>
+            <div class="price-row-display">
+              <span class="active-price-text">₹7,999</span>
+              <span class="striked-price-text">₹14,999</span>
+              <span class="gst-text-tag">+GST</span>
+            </div>
+            <ul class="tier-features-check-list">
+              <li class="tier-check-item included"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg><span><strong>Any 2 Course Tracks</strong> of your choice</span></li>
+              <li class="tier-check-item included"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg><span>Dedicated Mentors to Guide You 1:1</span></li>
+              <li class="tier-check-item included"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg><span>Weekly Project Battles &amp; Cash Challenges</span></li>
+              <li class="tier-check-item bonus"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.5">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                </svg><span>BONUS: Weekly Social Media Masterclasses</span></li>
+              <li class="tier-check-item bonus"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.5">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                </svg><span>Agency Assets &amp; Templates (Worth ₹5,000)</span></li>
+              <li class="tier-check-item included"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg><span>Verified Agency Completion Certificate</span></li>
+            </ul>
+          </div>
+          <a href="#enrol" class="btn-pricing-cta btn-pricing-primary" data-enrol-trigger data-tier="Elite">
+            <span>Join Elite</span>
+          </a>
+        </div>
+
+        <!-- ULTIMATE (All 4 Courses) -->
+        <div class="pricing-box-card">
+          <div>
+            <h3 class="tier-title-h3">ULTIMATE</h3>
+            <p class="tier-description">For serious builders wanting the complete digital agency powerhouse stack.</p>
+            <div class="price-row-display">
+              <span class="active-price-text">₹12,999</span>
+              <span class="striked-price-text">₹24,999</span>
+              <span class="gst-text-tag">+GST</span>
+            </div>
+            <ul class="tier-features-check-list">
+              <li class="tier-check-item included"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg><span><strong>All 4 Complete Course Tracks</strong></span></li>
+              <li class="tier-check-item included"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg><span>Personal Learning Manager for Progress</span></li>
+              <li class="tier-check-item included"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg><span>Priority Client Referral &amp; Internship</span></li>
+              <li class="tier-check-item bonus"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.5">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                </svg><span>Direct WhatsApp VIP Channel with Founders</span></li>
+              <li class="tier-check-item bonus"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.5">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                </svg><span>Complete Agency OS &amp; Contracts (Worth ₹10,000)</span></li>
+              <li class="tier-check-item included"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg><span>1-on-1 Portfolio &amp; Pitch Teardown</span></li>
+            </ul>
+          </div>
+          <a href="#enrol" class="btn-pricing-cta btn-pricing-secondary" data-enrol-trigger data-tier="Ultimate">
+            <span>Join Ultimate</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       6. THE PEAKOO CREATIVE STUDIO (Community Block like Tharun Speaks)
+       ========================================================================== -->
+  <section class="section" id="community">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-pill-tag">Ecosystem</div>
+        <h2 class="section-title">THE PEAKOO CREATIVE <span class="text-orange">STUDIO</span></h2>
+        <p class="section-subtitle">
+          Surround yourself with working mentors and ambitious peers. Never get stuck alone on an error or client issue.
+        </p>
+      </div>
+
+      <div class="community-cards-grid">
+        <div class="community-feature-card">
+          <div class="community-card-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+          </div>
+          <div class="community-card-content">
+            <h3>Mentor Reviews</h3>
+            <p>Direct code, design, and ad copy reviews by senior practitioners before you deliver anything to your
+              clients.</p>
+          </div>
+        </div>
+
+        <div class="community-feature-card">
+          <div class="community-card-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+            </svg>
+          </div>
+          <div class="community-card-content">
+            <h3>Project Battles &amp; Challenges</h3>
+            <p>Participate in weekly sprint challenges with real client constraints. Top performers win cash rewards and
+              portfolio features.</p>
+          </div>
+        </div>
+
+        <div class="community-feature-card">
+          <div class="community-card-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+            </svg>
+          </div>
+          <div class="community-card-content">
+            <h3>24/7 Private Group Access</h3>
+            <p>Direct access to our Discord and WhatsApp community for instant doubt clearing, collaboration, and
+              freelance leads.</p>
+          </div>
+        </div>
+
+        <div class="community-feature-card">
+          <div class="community-card-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10" />
+              <polygon points="10 8 16 12 10 16 10 8" />
+            </svg>
+          </div>
+          <div class="community-card-content">
+            <h3>Social Media Masterclass</h3>
+            <p>Learn how to turn your project work into high-engagement case studies on LinkedIn and Instagram to
+              attract inbound client deals.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       7. WHAT STUDENTS TALK ABOUT US (Testimonials in Tharun Speaks Style)
+       ========================================================================== -->
+  <section class="section" id="stories">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-pill-tag">Real Proof</div>
+        <h2 class="section-title">WHAT STUDENTS TALK <span class="text-orange">ABOUT US</span></h2>
+        <p class="section-subtitle">
+          More success stories from students who turned practical skills into real earnings.
+        </p>
+      </div>
+
+      <div class="testimonials-row-grid">
+        <div class="student-story-box">
+          <div>
+            <div class="story-quote-symbol">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+              </svg>
+            </div>
+            <p class="story-quote-body">
+              "The Web Development track gave me exact agency templates. Within 3 weeks of finishing, I closed a local
+              healthcare clinic website for ₹28,000! Having mentor review before delivering made all the difference."
+            </p>
+          </div>
+          <div class="story-student-profile">
+            <div class="student-avatar-badge">
+              <img src="assets/student_karthik.jpg" alt="Karthik Varma" class="student-avatar-img" loading="lazy">
+            </div>
+            <div class="student-meta-details">
+              <h4>Karthik Varma</h4>
+              <div class="student-meta-role">Web Developer</div>
+              <span class="student-metric-tag">Closed ₹28K Project</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="student-story-box">
+          <div>
+            <div class="story-quote-symbol">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+              </svg>
+            </div>
+            <p class="story-quote-body">
+              "The Meta Ads track taught me how to write high-converting copy and set up Click-to-WhatsApp funnels. Now
+              running ads for 2 retail clients on a monthly ₹45,000 retainer!"
+            </p>
+          </div>
+          <div class="story-student-profile">
+            <div class="student-avatar-badge">
+              <img src="assets/student_pooja.jpg" alt="Pooja S." class="student-avatar-img" loading="lazy">
+            </div>
+            <div class="student-meta-details">
+              <h4>Pooja S.</h4>
+              <div class="student-meta-role">Performance Marketer</div>
+              <span class="student-metric-tag">₹45K/mo Retainer</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="student-story-box">
+          <div>
+            <div class="story-quote-symbol">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+              </svg>
+            </div>
+            <p class="story-quote-body">
+              "The Google Business Profile audit strategy is insane. Walked into three local stores in my area with a
+              1-page map audit and signed up two of them for monthly profile SEO within 14 days."
+            </p>
+          </div>
+          <div class="story-student-profile">
+            <div class="student-avatar-badge">
+              <img src="assets/student_nikhil.jpg" alt="Sai Nikhil" class="student-avatar-img" loading="lazy">
+            </div>
+            <div class="student-meta-details">
+              <h4>Sai Nikhil</h4>
+              <div class="student-meta-role">Local SEO Specialist</div>
+              <span class="student-metric-tag">Client in 14 Days</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       8. MENTORS SECTION
+       ========================================================================== -->
+  <section class="section" id="mentors">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-pill-tag">Instructors</div>
+        <h2 class="section-title">LEARN FROM ACTIVE <span class="text-orange">PRACTITIONERS</span></h2>
+        <p class="section-subtitle">
+          Your mentors are actively running live campaigns and engineering websites at Peakoo Agency.
+        </p>
+      </div>
+
+      <div class="mentors-team-grid">
+        <div class="mentor-profile-card">
+          <div class="mentor-img-circle">
+            <img src="assets/mentor_founder.jpg" alt="Agency Founder &amp; Tech Lead" class="mentor-avatar-img"
+              loading="lazy">
+          </div>
+          <h3 class="mentor-card-name">Founder &amp; Tech Lead</h3>
+          <div class="mentor-card-designation">Agency Founder</div>
+          <p class="mentor-card-summary">Scales enterprise client sites and growth architecture. Mentoring on client
+            acquisition and contract closing.</p>
+        </div>
+
+        <div class="mentor-profile-card">
+          <div class="mentor-img-circle">
+            <img src="assets/mentor_designer.jpg" alt="Design Lead" class="mentor-avatar-img" loading="lazy">
+          </div>
+          <h3 class="mentor-card-name">Design Lead</h3>
+          <div class="mentor-card-designation">Senior Brand Designer</div>
+          <p class="mentor-card-summary">Specialist in typography, brand marks, and high-CTR social assets with 5+ years
+            crafting identities for Indian startups.</p>
+        </div>
+
+        <div class="mentor-profile-card">
+          <div class="mentor-img-circle">
+            <img src="assets/mentor_growth.jpg" alt="Growth Lead" class="mentor-avatar-img" loading="lazy">
+          </div>
+          <h3 class="mentor-card-name">Growth Lead</h3>
+          <div class="mentor-card-designation">Performance Marketer</div>
+          <p class="mentor-card-summary">Managed ₹50L+ in Meta ad spend across real estate and e-commerce. Focused on
+            ROI funnels and Google Maps SEO.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       9. GOT QUESTIONS? (FAQ Accordion like Tharun Speaks)
+       ========================================================================== -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-pill-tag">Clear Answers</div>
+        <h2 class="section-title">GOT <span class="text-orange">QUESTIONS</span>?</h2>
+        <p class="section-subtitle">
+          Everything you need to know about our cohorts, class schedule, and mentor support.
+        </p>
+      </div>
+
+      <div class="faq-accordion-wrap">
+        <div class="faq-row-item active">
+          <button class="faq-toggle-trigger">
+            <span>What is the duration of the cohort?</span>
+            <span class="faq-plus-icon">+</span>
+          </button>
+          <div class="faq-collapsed-panel" style="max-height: 200px;">
+            <p>Each cohort runs for 6 intensive weeks with 2 live interactive classes per week, backup HD recordings,
+              and weekly project battle assignments.</p>
+          </div>
+        </div>
+
+        <div class="faq-row-item">
+          <button class="faq-toggle-trigger">
+            <span>How long will I have access to the content?</span>
+            <span class="faq-plus-icon">+</span>
+          </button>
+          <div class="faq-collapsed-panel">
+            <p>You receive lifetime access to all recorded sessions, templates, checklists, and resource files directly
+              inside your student dashboard.</p>
+          </div>
+        </div>
+
+        <div class="faq-row-item">
+          <button class="faq-toggle-trigger">
+            <span>Do you teach from the basics?</span>
+            <span class="faq-plus-icon">+</span>
+          </button>
+          <div class="faq-collapsed-panel">
+            <p>Yes. All four tracks start from first principles without requiring any prior code or design background.
+              We guide you step-by-step to agency-level work.</p>
+          </div>
+        </div>
+
+        <div class="faq-row-item">
+          <button class="faq-toggle-trigger">
+            <span>Do I need to buy expensive software?</span>
+            <span class="faq-plus-icon">+</span>
+          </button>
+          <div class="faq-collapsed-panel">
+            <p>No! We teach using industry tools that have generous free tiers or lightweight alternatives (e.g. Canva,
+              free Figma, local WordPress stacks, and Google free tools).</p>
+          </div>
+        </div>
+
+        <div class="faq-row-item">
+          <button class="faq-toggle-trigger">
+            <span>What do you cover in the social media masterclass?</span>
+            <span class="faq-plus-icon">+</span>
+          </button>
+          <div class="faq-collapsed-panel">
+            <p>We teach you how to document your client projects, publish insightful carousels on LinkedIn &amp;
+              Instagram, build a personal brand, and generate inbound freelance leads.</p>
+          </div>
+        </div>
+
+        <div class="faq-row-item">
+          <button class="faq-toggle-trigger">
+            <span>How do project battles and cash prizes work?</span>
+            <span class="faq-plus-icon">+</span>
+          </button>
+          <div class="faq-collapsed-panel">
+            <p>Every weekend you receive a mock client brief. Working agency mentors score all submissions live, giving
+              direct feedback, with top entries winning cash rewards.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       10. STOP DELAYING YOUR DREAMS (Final CTA like Tharun Speaks)
+       ========================================================================== -->
+  <section class="section">
+    <div class="container">
+      <div class="final-cta-banner">
+        <h2 class="final-cta-headline">
+          STOP DELAYING YOUR DREAMS. <span class="text-orange">START</span> TODAY.
+        </h2>
+        <p class="final-cta-description">
+          Join the next cohort of creative builders. Learn with dedicated mentors, real client case studies, and skills
+          that create lasting income.
+        </p>
+        <div class="final-cta-actions">
+          <a href="#pricing" class="btn-hero-primary" data-enrol-trigger data-tier="Elite">
+            <span>Join Now</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+          <a href="https://wa.me/919999999999?text=Hi%20Peakoo%20Academy%2C%20I%20want%20to%20enquire%20about%20the%20upcoming%20cohort"
+            target="_blank" rel="noopener" class="btn-hero-secondary"
+            style="background: #25D366; border-color: #25D366;">
+            <span>Talk on WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer-wrap">
+    <div class="container">
+      <div class="footer-columns-grid">
+
+        <div>
+          <span class="nav-brand-text">PEAK<span class="oo-accent">OO</span></span>
+          <span class="nav-brand-tag">ACADEMY</span>
+          <p style="font-size: 14px; color: var(--text-muted); margin: 16px 0 18px; max-width: 320px;">
+            The official education vertical of Peakoo Agency. Delivering practical, market-tested digital skills to
+            ambitious students and freelancers.
+          </p>
+          <a href="https://peakoo.agency" target="_blank" rel="noopener" class="footer-agency-link">
+            <span>Powered by Peakoo.agency</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+              <polyline points="15 3 21 3 21 9" />
+              <line x1="10" y1="14" x2="21" y2="3" />
+            </svg>
+          </a>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-group">
+            <li><a href="#hero" class="footer-nav-item">Home</a></li>
+            <li><a href="#why-us" class="footer-nav-item">Why Us</a></li>
+            <li><a href="#courses" class="footer-nav-item">Courses</a></li>
+            <li><a href="#curriculum" class="footer-nav-item">What You'll Learn</a></li>
+            <li><a href="#pricing" class="footer-nav-item">Pricing</a></li>
+            <li><a href="#faq" class="footer-nav-item">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Tracks</h4>
+          <ul class="footer-links-group">
+            <li><a href="#curriculum" class="footer-nav-item" onclick="switchCurriculumTrack('graphic-design')">Graphic
+                Designing</a></li>
+            <li><a href="#curriculum" class="footer-nav-item" onclick="switchCurriculumTrack('web-dev')">Website
+                Development</a></li>
+            <li><a href="#curriculum" class="footer-nav-item" onclick="switchCurriculumTrack('meta-ads')">Meta Ads
+                Mastery</a></li>
+            <li><a href="#curriculum" class="footer-nav-item" onclick="switchCurriculumTrack('gbp')">Google Business
+                Profile</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Contact</h4>
+          <p style="font-size: 14px; color: var(--text-muted); margin-bottom: 8px;">
+            Email: <a href="mailto:success@peakoo.agency" style="color: var(--color-orange);">success@peakoo.agency</a>
+          </p>
+          <p style="font-size: 14px; color: var(--text-muted);">
+            Headquarters: Peakoo Agency, Vijayawada, Andhra Pradesh, India.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div>&copy; 2026 Peakoo Academy &amp; Peakoo Agency. All rights reserved.</div>
+        <div>Built with precision for next-gen agency builders.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       FLOATING WHATSAPP PILL
+       ========================================================================== -->
+  <a href="https://wa.me/919999999999?text=Hi%20Peakoo%20Academy%2C%20I%20want%20to%20inquire%20about%20upcoming%20cohorts!"
+    target="_blank" rel="noopener" class="floating-whatsapp-pill" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path
+        d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.634.073-1.042-.061-.83-.274-1.895-.87-2.671-1.646-.775-.776-1.371-1.841-1.646-2.671-.135-.408-.106-.73-.061-1.042.049-.333.418-1.026.823-1.17.153-.054.306-.081.458-.081.258 0 .426.046.541.319.144.341.488 1.19.532 1.279.044.089.073.193.015.31-.059.117-.089.19-.176.293-.088.103-.186.23-.266.309-.089.088-.182.185-.078.363.104.178.463.765.992 1.236.68.606 1.254.793 1.432.882.178.089.282.074.386-.045.104-.118.444-.518.562-.695.118-.178.237-.148.397-.089.16.059 1.018.48 1.194.568.176.088.293.133.337.208.044.075.044.433-.1 1.043z" />
+    </svg>
+    <span>Chat with Us</span>
+  </a>
+
+  <!-- ==========================================================================
+       INTERACTIVE VIDEO TOUR MODAL
+       ========================================================================== -->
+  <div class="video-modal-overlay" id="videoTourModal" role="dialog" aria-modal="true">
+    <div class="video-player-container">
+      <div class="video-modal-header">
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <span
+            style="width: 10px; height: 10px; border-radius: 50%; background: #FF5500; display: inline-block;"></span>
+          <span style="font-family: var(--font-heading); font-weight: 700; font-size: 14px; color: #FFFFFF;">Peakoo
+            Agency Cohort Overview</span>
+        </div>
+        <button class="modal-x-btn" id="closeVideoTourBtn" style="position: static; width: 30px; height: 30px;"
+          aria-label="Close video">&times;</button>
+      </div>
+
+      <div class="video-simulation-canvas">
+        <video id="tourVideoPlayer" controls playsinline poster="assets/hero_video_thumb.jpg"
+          style="width: 100%; height: 100%; object-fit: cover; background: #000; display: block;">
+          <source src="assets/sample_clip.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="video-modal-footer-info">
+        <div class="video-chapters-row">
+          <button type="button" class="video-chapter-pill active" data-time="0">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+              <polygon points="6 3 20 12 6 21 6 3" />
+            </svg>
+            <span>01. Agency Mindset</span>
+          </button>
+          <button type="button" class="video-chapter-pill" data-time="1">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+              <polygon points="6 3 20 12 6 21 6 3" />
+            </svg>
+            <span>02. Live Client Battles</span>
+          </button>
+          <button type="button" class="video-chapter-pill" data-time="2">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+              <polygon points="6 3 20 12 6 21 6 3" />
+            </svg>
+            <span>03. Portfolio &amp; Reviews</span>
+          </button>
+          <button type="button" class="video-chapter-pill" data-time="3">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+              <polygon points="6 3 20 12 6 21 6 3" />
+            </svg>
+            <span>04. Retainer Closing</span>
+          </button>
+        </div>
+        <div class="video-bottom-action-bar">
+          <div>
+            <h4 style="font-size: 15px; margin-bottom: 2px; color: #FFFFFF;">Peakoo Agency Cohort Walkthrough</h4>
+            <p style="font-size: 12.5px; color: var(--text-muted); margin: 0;">Interactive 6-week curriculum walkthrough
+              &amp; client sprint preview</p>
+          </div>
+          <div style="display: flex; gap: 10px; align-items: center;">
+            <a href="#pricing" class="btn-hero-primary" data-enrol-trigger data-tier="Elite"
+              style="padding: 9px 20px; font-size: 13px;">
+              <span>Enrol Now</span>
+            </a>
+            <button type="button" class="btn-hero-secondary" id="closeVideoTourSecondaryBtn"
+              style="padding: 9px 18px; font-size: 13px;">
+              <span>Close</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       ENROLMENT MODAL
+       ========================================================================== -->
+  <div class="modal-screen-overlay" id="enrolModal" role="dialog" aria-modal="true">
+    <div class="modal-card-container">
+      <button class="modal-x-btn" aria-label="Close modal">&times;</button>
+
+      <div style="margin-bottom: 22px;">
+        <h3 style="font-size: 1.8rem; margin-bottom: 6px;">JOIN THE <span class="text-orange">COHORT</span></h3>
+        <p style="font-size: 14px; color: var(--text-muted);">Reserve your seat for the upcoming live batch. Maximum 20
+          students per cohort.</p>
+      </div>
+
+      <form id="academyEnrolForm">
+        <div class="input-field-group">
+          <label class="input-label-text" for="studentName">Full Name</label>
+          <input type="text" id="studentName" class="text-input-control" placeholder="e.g. Rahul Sharma" required>
+        </div>
+
+        <div class="input-field-group">
+          <label class="input-label-text" for="studentPhone">WhatsApp Number</label>
+          <input type="tel" id="studentPhone" class="text-input-control" placeholder="+91 98765 43210" required>
+        </div>
+
+        <div class="input-field-group">
+          <label class="input-label-text" for="studentEmail">Email Address</label>
+          <input type="email" id="studentEmail" class="text-input-control" placeholder="you@example.com" required>
+        </div>
+
+        <div class="input-field-group">
+          <label class="input-label-text" for="courseSelection">Track Selection</label>
+          <select id="courseSelection" class="select-input-control" required>
+            <option value="Website Development">Website Development</option>
+            <option value="Graphic Designing">Graphic Designing</option>
+            <option value="Meta Ads">Meta Ads Mastery</option>
+            <option value="Google Business Profile">Google Business Profile</option>
+            <option value="All 4 Courses (Ultimate)">All 4 Courses (Ultimate Agency Stack)</option>
+          </select>
+        </div>
+
+        <div class="input-field-group">
+          <label class="input-label-text" for="tierSelection">Plan Tier</label>
+          <select id="tierSelection" class="select-input-control" required>
+            <option value="Elite" selected>Elite Tier (Any 2 Tracks - ₹7,999)</option>
+            <option value="Single Track">Essential Tier (1 Track - ₹4,999)</option>
+            <option value="Ultimate">Ultimate Tier (All 4 Tracks - ₹12,999)</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn-pricing-cta btn-pricing-primary" style="margin-top: 10px;">
+          <span>Submit &amp; Reserve Seat</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </button>
+      </form>
+
+      <div id="formSuccessMessage" style="display: none; text-align: center; padding: 25px 10px;">
+        <div
+          style="width: 58px; height: 58px; border-radius: 50%; background: rgba(37, 211, 102, 0.15); color: #25D366; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px;">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+            <polyline points="20 6 9 17 4 12" />
+          </svg>
+        </div>
+        <h3 style="font-size: 1.5rem; margin-bottom: 8px;">ENROLMENT <span class="text-orange">RECEIVED</span>!</h3>
+        <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 20px;">
+          We've registered your application. Check your email or confirm instantly with our admissions team on WhatsApp.
+        </p>
+        <a id="whatsAppHandoffBtn" href="#" target="_blank" rel="noopener" class="btn-hero-secondary"
+          style="width: 100%; justify-content: center; background: #25D366; border-color: #25D366;">
+          <span>Confirm on WhatsApp</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
