@@ -86,6 +86,13 @@ function initCurriculumTabs() {
       switchCurriculumTrack(targetTrack);
     });
   });
+
+  // Check URL query parameters (e.g. ?track=web-dev)
+  const urlParams = new URLSearchParams(window.location.search);
+  const trackParam = urlParams.get('track');
+  if (trackParam) {
+    switchCurriculumTrack(trackParam);
+  }
 }
 
 function switchCurriculumTrack(trackId) {
@@ -126,10 +133,12 @@ function initCourseCardLinks() {
     box.addEventListener('click', () => {
       const trackId = box.getAttribute('data-target-track');
       if (trackId) {
-        switchCurriculumTrack(trackId);
         const curriculumEl = document.getElementById('curriculum');
         if (curriculumEl) {
+          switchCurriculumTrack(trackId);
           curriculumEl.scrollIntoView({ behavior: 'smooth' });
+        } else {
+          window.location.href = `index.html?track=${trackId}#curriculum`;
         }
       }
     });
@@ -237,7 +246,7 @@ function initFaqAccordion() {
  */
 function initModal() {
   const modalWrap = document.getElementById('enrolModal');
-  const closeBtn = document.querySelector('.modal-x-btn');
+  const closeBtn = modalWrap ? modalWrap.querySelector('.modal-x-btn') : null;
   const triggerBtns = document.querySelectorAll('[data-enrol-trigger]');
   const enrolForm = document.getElementById('academyEnrolForm');
   const successBox = document.getElementById('formSuccessMessage');
@@ -246,8 +255,23 @@ function initModal() {
 
   function openModal(course = '', tier = '') {
     if (modalWrap) {
-      if (course && courseSelect) courseSelect.value = course;
-      if (tier && tierSelect) tierSelect.value = tier;
+      if (course && courseSelect) {
+        const cleanCourse = course.replace(/&amp;/g, '&');
+        const match = Array.from(courseSelect.options).find(opt => 
+          opt.value === cleanCourse || opt.value.toLowerCase().includes(cleanCourse.toLowerCase()) || cleanCourse.toLowerCase().includes(opt.value.toLowerCase())
+        );
+        if (match) courseSelect.value = match.value;
+      }
+      if (tier && tierSelect) {
+        const matchTier = Array.from(tierSelect.options).find(opt => 
+          opt.value === tier || opt.value.toLowerCase() === tier.toLowerCase()
+        );
+        if (matchTier) {
+          tierSelect.value = matchTier.value;
+        } else if (tier.toLowerCase().includes('elite') || tier.toLowerCase().includes('bundle')) {
+          tierSelect.value = '₹4,499';
+        }
+      }
       modalWrap.classList.add('open');
       document.body.style.overflow = 'hidden';
     }
@@ -264,17 +288,38 @@ function initModal() {
     }
   }
 
+  // Conversion event tracking helper (GA4 & Meta Pixel)
+  function trackConversion(eventName, eventParams = {}) {
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', eventName, eventParams);
+    }
+    if (typeof window.fbq === 'function') {
+      window.fbq('track', eventName, eventParams);
+    }
+    console.log(`[Peakoo Analytics] ${eventName}:`, eventParams);
+  }
+
+  // Track all WhatsApp clicks
+  document.querySelectorAll('a[href*="wa.me"]').forEach(waBtn => {
+    waBtn.addEventListener('click', () => {
+      trackConversion('Contact', { channel: 'WhatsApp' });
+    });
+  });
+
   triggerBtns.forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
       const course = btn.getAttribute('data-course') || '';
       const tier = btn.getAttribute('data-tier') || '';
+      trackConversion('InitiateCheckout', { course, tier });
       openModal(course, tier);
     });
   });
 
-  if (closeBtn) {
-    closeBtn.addEventListener('click', closeModal);
+  if (modalWrap) {
+    modalWrap.querySelectorAll('.modal-x-btn').forEach(btn => {
+      btn.addEventListener('click', closeModal);
+    });
   }
 
   if (modalWrap) {
@@ -317,6 +362,8 @@ function initModal() {
       } catch (err) {
         console.error('Storage error:', err);
       }
+
+      trackConversion('Lead', leadData);
 
       enrolForm.style.display = 'none';
       if (successBox) {

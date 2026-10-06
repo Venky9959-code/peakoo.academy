@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>Courses &amp; Career Tracks — Peakoo Academy | Agency-Led Cohorts</title>
+  <meta name="description"
+    content="Explore the 4 high-demand career tracks at Peakoo Academy: Graphic Designing, Website Development, Meta Ads, and Google Business Profile Setup. Live agency cohorts.">
+  <meta name="keywords"
+    content="graphic design course Vijayawada, website development course, Meta ads course, Google Business Profile course, Peakoo Academy tracks">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://academy.peakoo.agency/courses.html">
+  <meta property="og:title" content="Courses &amp; Career Tracks — Peakoo Academy">
+  <meta property="og:description"
+    content="Master in-demand digital skills directly from working practitioners. 6-week live cohorts with 1:1 mentor feedback and live client projects.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/webp" href="assets/cropped-peakoo-icon-white-512.webp">
+  <link rel="apple-touch-icon" href="assets/cropped-peakoo-icon-white-512.webp">
+
+  <!-- Google Fonts for Peakoo Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=Playfair+Display:ital,wght@0,600;0,700;1,500;1,600;1,700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css?v=3.5">
+
+  <!-- Course Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [
+      {
+        "@type": "Course",
+        "position": 1,
+        "name": "Graphic Designing",
+        "description": "Master color theory, brand identities, viral social carousels, and portfolio packaging in Canva, Photoshop and Illustrator.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Peakoo Academy",
+          "sameAs": "https://academy.peakoo.agency"
+        }
+      },
+      {
+        "@type": "Course",
+        "position": 2,
+        "name": "Website Development",
+        "description": "Build blazing-fast responsive websites with HTML, CSS, WordPress, speed optimization, and lead capture funnels.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Peakoo Academy",
+          "sameAs": "https://academy.peakoo.agency"
+        }
+      },
+      {
+        "@type": "Course",
+        "position": 3,
+        "name": "Meta Ads",
+        "description": "Run profitable Facebook and Instagram ad campaigns that drive qualified leads, click-to-WhatsApp funnels, and real client revenue.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Peakoo Academy",
+          "sameAs": "https://academy.peakoo.agency"
+        }
+      },
+      {
+        "@type": "Course",
+        "position": 4,
+        "name": "Google Business Profile Setup",
+        "description": "Rank local businesses in Google Map 3-Pack, optimize keywords, drive phone calls, and close monthly retainers.",
+        "provider": {
+          "@type": "Organization",
+          "name": "Peakoo Academy",
+          "sameAs": "https://academy.peakoo.agency"
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- ==========================================================================
+       1. FLOATING PILL NAVBAR
+       ========================================================================== -->
+  <div class="floating-navbar-wrap">
+    <header class="floating-navbar" id="floatingNavbar">
+
+      <!-- Brand Logo -->
+      <a href="index.html" class="nav-brand-link" aria-label="Peakoo Academy Home">
+        <img src="assets/logo-peakoo-white.webp" alt="Peakoo" class="nav-brand-logo-img" width="100" height="25">
+        <span class="nav-brand-tag">ACADEMY</span>
+      </a>
+
+      <!-- Center Pill Links -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu-links">
+          <li><a href="courses.html" class="nav-menu-link active">Courses</a></li>
+          <li><a href="index.html#curriculum" class="nav-menu-link">Curriculum</a></li>
+          <li><a href="index.html#pricing" class="nav-menu-link">Pricing</a></li>
+          <li><a href="index.html#community" class="nav-menu-link">Community</a></li>
+          <li><a href="index.html#faq" class="nav-menu-link">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Enrol CTA Button -->
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <a href="#pricing-bundles" class="btn-nav-join" data-enrol-trigger data-tier="Elite">
+          <span>Enroll Now</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </a>
+
+        <!-- Hamburger for Mobile -->
+        <button class="mobile-hamburger" id="mobileMenuBtn" aria-label="Open Navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </header>
+  </div>
+
+  <!-- Mobile Drawer Overlay -->
+  <div class="modal-screen-overlay" id="mobileDrawerWrap" style="z-index: 1050; padding: 0;">
+    <div
+      style="background: #0B0B0B; width: 100%; max-width: 340px; height: 100vh; position: absolute; right: 0; padding: 70px 24px 30px; display: flex; flex-direction: column; justify-content: space-between; border-left: 1px solid var(--border-subtle);">
+      <div>
+        <div style="margin-bottom: 26px;">
+          <a href="index.html" class="nav-brand-link" style="text-decoration: none;">
+            <img src="assets/logo-peakoo-white.webp" alt="Peakoo" class="nav-brand-logo-img" width="108" height="27">
+            <span class="nav-brand-tag">ACADEMY</span>
+          </a>
+        </div>
+        <ul style="list-style: none; display: flex; flex-direction: column; gap: 16px;">
+          <li><a href="courses.html" class="mobile-menu-link active"
+              style="font-family: var(--font-display); font-size: 20px; font-weight: 800; display: block;">Courses</a>
+          </li>
+          <li><a href="index.html#curriculum" class="mobile-menu-link"
+              style="font-family: var(--font-display); font-size: 20px; font-weight: 800; display: block;">Curriculum</a>
+          </li>
+          <li><a href="index.html#pricing" class="mobile-menu-link"
+              style="font-family: var(--font-display); font-size: 20px; font-weight: 800; display: block;">Pricing</a>
+          </li>
+          <li><a href="index.html#community" class="mobile-menu-link"
+              style="font-family: var(--font-display); font-size: 20px; font-weight: 800; display: block;">Community</a>
+          </li>
+          <li><a href="index.html#faq" class="mobile-menu-link"
+              style="font-family: var(--font-display); font-size: 20px; font-weight: 800; display: block;">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <a href="#pricing-bundles" class="btn-hero-primary"
+          style="width: 100%; justify-content: center; margin-bottom: 10px;" data-enrol-trigger data-tier="Elite">Enrol
+          Now</a>
+        <a href="https://wa.me/919999999999?text=Hi%20Peakoo%20Academy%2C%20I%20want%20to%20enquire%20about%20the%20courses"
+          target="_blank" rel="noopener" class="btn-hero-secondary"
+          style="width: 100%; justify-content: center; background:#25D366; border-color:#25D366;">WhatsApp Us</a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- ==========================================================================
+       3. DETAILED COURSES SHOWCASE
+       ========================================================================== -->
+  <section class="section">
+    <div class="container">
+
+      <div class="section-header">
+        <div class="section-pill-tag">Comprehensive Catalog</div>
+        <h2 class="section-title">CHOOSE YOUR HIGH-VALUE <span class="text-orange">PATH</span></h2>
+        <p class="section-subtitle">
+          Select an individual course or bundle multiple skills into an Elite or Ultimate cohort package.
+        </p>
+      </div>
+
+      <div class="course-detail-list">
+
+        <!-- ================= COURSE 01: GRAPHIC DESIGNING ================= -->
+        <article class="course-detail-card" id="graphic-designing">
+          <div class="course-detail-header">
+            <div>
+              <div class="course-badge-row">
+                <span class="course-mode-badge badge-recorded">Recorded, start today</span>
+                <span class="course-track-pill">TRACK 01</span>
+                <span class="course-tag-pill">Brand &amp; Visual Identity</span>
+              </div>
+              <h3 class="course-detail-title">Graphic Designing</h3>
+            </div>
+            <div class="course-price-hint">
+              Course Rate: <strong>₹999</strong> <span style="font-size: 12px; color: var(--text-dim);">(Inclusive of
+                GST)</span>
+            </div>
+          </div>
+
+          <p class="course-detail-desc">
+            Master colour, type and layout fundamentals. Learn to craft high-converting social posts and carousels in
+            Canva and Photoshop to build a professional portfolio you can show clients.
+          </p>
+
+          <!-- Key Meta Grid -->
+          <div class="course-meta-grid">
+            <div class="course-meta-box">
+              <span class="course-meta-lbl">Delivery</span>
+              <span class="course-meta-val">Recorded, start today</span>
+            </div>
+            <div class="course-meta-box">
+              <span class="course-meta-lbl">Pace</span>
+              <span class="course-meta-val">Self-paced with community Q&amp;A</span>
+            </div>
+            <div class="course-meta-box">
+              <span class="course-meta-lbl">Key Tools</span>
+              <span class="course-meta-val">Canva &amp; Photoshop</span>
+            </div>
+            <div class="course-meta-box">
+              <span class="course-meta-lbl">Core Asset</span>
+              <span class="course-meta-val">Client-Ready Design Portfolio</span>
+            </div>
+          </div>
+
+          <!-- Deliverables / What You Build -->
+          <div class="course-deliverables-wrap">
+            <div class="course-deliverables-title">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <span>What You Will Master &amp; Deliver:</span>
+            </div>
+            <div class="course-deliverables-grid">
+              <div class="course-deliverable-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>Colour, type and layout fundamentals</span>
+              </div>
+              <div class="course-deliverable-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>Social posts and carousels in Canva and Photoshop</span>
+              </div>
+              <div class="course-deliverable-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>Build a portfolio you can show clients</span>
+              </div>
+              <div class="course-deliverable-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>Learn at your own pace. Questions answered in the student community.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Actions -->
+          <div class="course-card-actions">
+            <div class="course-actions-left">
+              <a href="#enrol" class="btn-hero-primary" data-enrol-trigger data-course="Graphic Designing"
+                data-tier="₹999">
+                <span>Enrol in this course</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </a>
+              <a href="index.html?track=graphic-design#curriculum" class="btn-hero-secondary">
+                <span>View Full Curriculum</span>
+              </a>
+            </div>
+            <a href="https://wa.me/919999999999?text=Hi%20Peakoo%20Academy%2C%20I%20want%20to%20know%20more%20about%20the%20Graphic%20Designing%20Course"
+              target="_blank" rel="noopener"
+              style="font-size: 13px; color: #25D366; text-decoration: none; display: flex; align-items: center; gap: 6px;">
+              <span>Enquire on WhatsApp</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- ================= COURSE 02: WEBSITE DEVELOPMENT ================= -->
+        <article class="course-detail-card" id="website-development">
+          <div class="course-detail-header">
+            <div>
+              <div class="course-badge-row">
+                <span class="course-mode-badge badge-live">Live classes</span>
+                <span class="course-track-pill">TRACK 02</span>
+                <span class="course-tag-pill">Responsive Web Design</span>
+              </div>
+              <h3 class="course-detail-title">Website Development &amp; Deployment</h3>
+            </div>
+            <div class="course-price-hint">
+              Course Rate: <strong>₹2,499</strong> <span style="font-size: 12px; color: var(--text-dim);">(Inclusive of
+                GST)</span>
+            </div>
+          </div>
+
+          <p class="course-detail-desc">
+            Plan and design a site that turns visitors into leads. Build it responsive with HTML, CSS and WordPress. Add
+            WhatsApp and lead forms, then deploy on your own domain.
+          </p>
+
+          <!-- Key Meta Grid -->
+          <div class="course-meta-grid">
+            <div class="course-meta-box">
+              <span class="course-meta-lbl">Delivery</span>
+              <span class="course-meta-val">8 live classes over 4 weeks</span>
+            </div>
+            <div class="course-meta-box">
+              <span class="course-meta-lbl">Schedule</span>
+              <span class="course-meta-val">Next batch starts [date]. Limited seats.</span>
+            </div>
+            <div class="course-meta-box">
+              <span class="course-meta-lbl">Core Stack</span>
+              <span class="course-meta-val">HTML, CSS, WordPress</span>
+            </div>
+            <div class="course-meta-box">
+              <span class="course-meta-lbl">Target Outcome</span>
+              <span class="course-meta-val">Custom Domain Live Site</span>
+            </div>
+          </div>
+
+          <!-- Deliverables / What You Build -->
+          <div class="course-deliverables-wrap">
+            <div class="course-deliverables-title">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <span>What You Will Master &amp; Deliver:</span>
+            </div>
+            <div class="course-deliverables-grid">
+              <div class="course-deliverable-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>Plan and design a site that turns visitors into leads</span>
+              </div>
+              <div class="course-deliverable-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>Build it responsive with HTML, CSS and WordPress</span>
+              </div>
+              <div class="course-deliverable-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>Add WhatsApp and lead forms, then deploy on your own domain</span>
+              </div>
+              <div class="course-deliverable-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>8 live classes over 4 weeks. Next batch starts [date]. Limited seats.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Actions -->
+          <div class="course-card-actions">
+            <div class="course-actions-left">
+              <a href="#enrol" class="btn-hero-primary" data-enrol-trigger
+                data-course="Website Development &amp; Deployment" data-tier="₹2,499">
+                <span>Enrol in this course</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </a>
+              <a href="index.html?track=web-dev#curriculum" class="btn-hero-secondary">
+                <span>View Full Curriculum</span>
+              </a>
+            </div>
+            <a href="https://wa.me/919999999999?text=Hi%20Peakoo%20Academy%2C%20I%20want%20to%20know%20more%20about%20the%20Website%20Development%20Course"
+              target="_blank" rel="noopener"
+              style="font-size: 13px; color: #25D366; text-decoration: none; display: flex; align-items: center; gap: 6px;">
+              <span>Enquire on WhatsApp</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- ================= COURSE 03: META ADS ================= -->
+        <article class="course-detail-card" id="meta-ads">
+          <div class="course-detail-header">
+            <div>
+              <div class="course-badge-row">
+                <span class="course-mode-badge badge-live">Live classes</span>
+                <span class="course-track-pill">TRACK 03</span>
+                <span class="course-tag-pill">Performance Marketing</span>
+              </div>
+              <h3 class="course-detail-title">Meta Ads</h3>
+            </div>
+            <div class="course-price-hint">
+              Course Rate: <strong>₹1,499</strong> <span style="font-size: 12px; color: var(--text-dim);">(Inclusive of
+                GST)</span>
+            </div>
+          </div>
+
+          <p class="course-detail-desc">
+            Set up Business Manager, Pixel and your ad account safely. Write ad copy and pick audiences that bring
+            leads. Run click-to-WhatsApp and lead form campaigns on a small budget.
+          </p>
+
+          <!-- Key Meta Grid -->
+          <div class="course-meta-grid">
+            <div class="course-meta-box">
+              <span class="course-meta-lbl">Delivery</span>
+              <span class="course-meta-val">8 live classes over 4 weeks</span>
+            </div>
+            <div class="course-meta-box">
+              <span class="course-meta-lbl">Schedule</span>
+              <span class="course-meta-val">Next batch starts [date]. Limited seats.</span>
+            </div>
+            <div class="course-meta-box">
+              <span class="course-meta-lbl">Platform</span>
+              <span class="course-meta-val">Business Manager, Pixel, Ads Manager</span>
+            </div>
+            <div class="course-meta-box">
+              <span class="course-meta-lbl">Target Outcome</span>
+              <span class="course-meta-val">High-ROI Leads &amp; WhatsApp Funnels</span>
+            </div>
+          </div>
+
+          <!-- Deliverables / What You Build -->
+          <div class="course-deliverables-wrap">
+            <div class="course-deliverables-title">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <span>What You Will Master &amp; Deliver:</span>
+            </div>
+            <div class="course-deliverables-grid">
+              <div class="course-deliverable-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>Set up Business Manager, Pixel and your ad account safely</span>
+              </div>
+              <div class="course-deliverable-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>Write ad copy and pick audiences that bring leads</span>
+              </div>
+              <div class="course-deliverable-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>Run click-to-WhatsApp and lead form campaigns on a small budget</span>
+              </div>
+              <div class="course-deliverable-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>8 live classes over 4 weeks. Next batch starts [date]. Limited seats.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Actions -->
+          <div class="course-card-actions">
+            <div class="course-actions-left">
+              <a href="#enrol" class="btn-hero-primary" data-enrol-trigger data-course="Meta Ads" data-tier="₹1,499">
+                <span>Enrol in this course</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </a>
+              <a href="index.html?track=meta-ads#curriculum" class="btn-hero-secondary">
+                <span>View Full Curriculum</span>
+              </a>
+            </div>
+            <a href="https://wa.me/919999999999?text=Hi%20Peakoo%20Academy%2C%20I%20want%20to%20know%20more%20about%20the%20Meta%20Ads%20Course"
+              target="_blank" rel="noopener"
+              style="font-size: 13px; color: #25D366; text-decoration: none; display: flex; align-items: center; gap: 6px;">
+              <span>Enquire on WhatsApp</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- ================= COURSE 04: GOOGLE BUSINESS PROFILE ================= -->
+        <article class="course-detail-card" id="google-business-profile">
+          <div class="course-detail-header">
+            <div>
+              <div class="course-badge-row">
+                <span class="course-mode-badge badge-recorded">Recorded, start today</span>
+                <span class="course-track-pill">TRACK 04</span>
+                <span class="course-tag-pill">Local SEO</span>
+              </div>
+              <h3 class="course-detail-title">Google Business Profile Setup with AI</h3>
+            </div>
+            <div class="course-price-hint">
+              Course Rate: <strong>₹999</strong> <span style="font-size: 12px; color: var(--text-dim);">(Inclusive of
+                GST)</span>
+            </div>
+          </div>
+
+          <p class="course-detail-desc">
+            Create, verify and optimise a business profile. Use AI tools to write posts, services and review replies.
+            Pitch local businesses with a simple profile audit.
+          </p>
+
+          <!-- Key Meta Grid -->
+          <div class="course-meta-grid">
+            <div class="course-meta-box">
+              <span class="course-meta-lbl">Delivery</span>
+              <span class="course-meta-val">Recorded, start today</span>
+            </div>
+            <div class="course-meta-box">
+              <span class="course-meta-lbl">Pace</span>
+              <span class="course-meta-val">Self-paced with community Q&amp;A</span>
+            </div>
+            <div class="course-meta-box">
+              <span class="course-meta-lbl">Key Tools</span>
+              <span class="course-meta-val">Google Maps &amp; AI Tools</span>
+            </div>
+            <div class="course-meta-box">
+              <span class="course-meta-lbl">Target Outcome</span>
+              <span class="course-meta-val">Local Business Monthly Retainers</span>
+            </div>
+          </div>
+
+          <!-- Deliverables / What You Build -->
+          <div class="course-deliverables-wrap">
+            <div class="course-deliverables-title">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              <span>What You Will Master &amp; Deliver:</span>
+            </div>
+            <div class="course-deliverables-grid">
+              <div class="course-deliverable-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>Create, verify and optimise a business profile</span>
+              </div>
+              <div class="course-deliverable-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>Use AI tools to write posts, services and review replies</span>
+              </div>
+              <div class="course-deliverable-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>Pitch local businesses with a simple profile audit</span>
+              </div>
+              <div class="course-deliverable-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>Learn at your own pace. Questions answered in the student community.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Actions -->
+          <div class="course-card-actions">
+            <div class="course-actions-left">
+              <a href="#enrol" class="btn-hero-primary" data-enrol-trigger
+                data-course="Google Business Profile Setup with AI" data-tier="₹999">
+                <span>Enrol in this course</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </a>
+              <a href="index.html?track=gbp#curriculum" class="btn-hero-secondary">
+                <span>View Full Curriculum</span>
+              </a>
+            </div>
+            <a href="https://wa.me/919999999999?text=Hi%20Peakoo%20Academy%2C%20I%20want%20to%20know%20more%20about%20the%20Google%20Business%20Profile%20Course"
+              target="_blank" rel="noopener"
+              style="font-size: 13px; color: #25D366; text-decoration: none; display: flex; align-items: center; gap: 6px;">
+              <span>Enquire on WhatsApp</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- ==========================================================================
+           COHORT PRICING & BUNDLE CALLOUT (Images 1 & 2)
+           ========================================================================== -->
+      <div class="pricing-bundle-banner" id="pricing-bundles">
+        <div style="text-align: center; max-width: 680px; margin: 0 auto 30px;">
+          <div class="section-pill-tag" style="margin-bottom: 12px;">Special Offers</div>
+          <h2 style="font-size: clamp(1.8rem, 3.5vw, 2.6rem); margin-bottom: 12px;">
+            ALL FOUR COURSES OR <span class="text-orange">MASTERCLASS</span>
+          </h2>
+          <p style="color: var(--text-muted); font-size: 15px; margin: 0;">
+            Take one course, grab all four together and save ₹1,497, or start with the ₹99 masterclass.
+          </p>
+        </div>
+
+        <!-- Combo Banner: All four courses together (Image 2) -->
+        <div class="bundle-combo-banner" style="margin-top: 0; margin-bottom: 24px;">
+          <div class="bundle-combo-left">
+            <h3 class="bundle-combo-title">All four courses together</h3>
+            <p class="bundle-combo-sub">Save ₹1,497 compared with buying each one separately.</p>
+          </div>
+          <div class="bundle-combo-right">
+            <div class="bundle-combo-pricing">
+              <span class="bundle-combo-price">₹4,499</span>
+              <span class="bundle-combo-striked">₹5,996</span>
+            </div>
+            <a href="#enrol" class="btn-bundle-combo" data-enrol-trigger data-course="All 4 Courses Bundle"
+              data-tier="₹4,499">
+              <span>Get the bundle</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Masterclass Callout (Peakoo Palette) -->
+        <div
+          style="background: var(--bg-card); border: 1px solid rgba(255, 85, 0, 0.35); border-radius: 18px; padding: 24px 30px; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap;">
+          <div>
+            <div
+              style="font-family: var(--font-heading); font-size: 18px; font-weight: 700; color: #FFFFFF; margin-bottom: 4px;">
+              Beginner-friendly live masterclass — <span style="color: var(--color-orange);">₹99</span>
+            </div>
+            <div style="font-size: 13.5px; color: var(--text-muted);">
+              A clear overview of all 4 skills. Your ₹99 is 100% credited toward any course you enrol in within 48
+              hours.
+            </div>
+          </div>
+          <a href="#enrol" class="btn-course-enroll" style="width: auto; padding: 12px 28px;" data-enrol-trigger
+            data-course="Live Masterclass (₹99)" data-tier="Masterclass">
+            <span>Reserve ₹99 Seat</span>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       4. FINAL CTA BANNER
+       ========================================================================== -->
+  <section class="section" style="padding-top: 0;">
+    <div class="container">
+      <div class="final-cta-banner">
+        <h2 class="final-cta-headline">
+          STOP DELAYING YOUR DREAMS. <span class="text-orange">START</span> TODAY.
+        </h2>
+        <p class="final-cta-description">
+          Join the next cohort of creative builders. Learn with dedicated mentors, real client case studies, and skills
+          that create lasting income.
+        </p>
+        <div class="final-cta-actions">
+          <a href="#enrol" class="btn-hero-primary" data-enrol-trigger data-tier="Elite">
+            <span>Enrol Now</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+          <a href="https://wa.me/919999999999?text=Hi%20Peakoo%20Academy%2C%20I%20want%20to%20enquire%20about%20the%20upcoming%20cohort"
+            target="_blank" rel="noopener" class="btn-hero-secondary"
+            style="background: #25D366; border-color: #25D366;">
+            <span>Talk on WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       5. FOOTER
+       ========================================================================== -->
+  <footer class="footer-wrap">
+    <div class="container">
+      <div class="footer-columns-grid">
+
+        <div>
+          <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 16px;">
+            <img src="assets/logo-peakoo-white.webp" alt="Peakoo" class="footer-brand-logo-img" width="124" height="31">
+            <span class="nav-brand-tag">ACADEMY</span>
+          </div>
+          <p style="font-size: 14px; color: var(--text-muted); margin: 16px 0 18px; max-width: 320px;">
+            The official education vertical of Peakoo Agency. Delivering practical, market-tested digital skills to
+            ambitious students and freelancers.
+          </p>
+          <a href="https://peakoo.agency" target="_blank" rel="noopener" class="footer-agency-link">
+            <span>Powered by Peakoo.agency</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+              <polyline points="15 3 21 3 21 9" />
+              <line x1="10" y1="14" x2="21" y2="3" />
+            </svg>
+          </a>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-group">
+            <li><a href="index.html" class="footer-nav-item">Home</a></li>
+            <li><a href="courses.html" class="footer-nav-item">Courses</a></li>
+            <li><a href="index.html#curriculum" class="footer-nav-item">Curriculum</a></li>
+            <li><a href="index.html#pricing" class="footer-nav-item">Pricing</a></li>
+            <li><a href="index.html#community" class="footer-nav-item">Community</a></li>
+            <li><a href="index.html#faq" class="footer-nav-item">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Tracks</h4>
+          <ul class="footer-links-group">
+            <li><a href="#graphic-designing" class="footer-nav-item">Graphic Designing</a></li>
+            <li><a href="#website-development" class="footer-nav-item">Website Development</a></li>
+            <li><a href="#meta-ads" class="footer-nav-item">Meta Ads</a></li>
+            <li><a href="#google-business-profile" class="footer-nav-item">Google Business Profile Setup</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Contact</h4>
+          <p style="font-size: 14px; color: var(--text-muted); margin-bottom: 8px;">
+            Email: <a href="mailto:success@peakoo.agency" style="color: var(--color-orange);">success@peakoo.agency</a>
+          </p>
+          <p style="font-size: 14px; color: var(--text-muted);">
+            Headquarters: Peakoo Agency, Vijayawada, Andhra Pradesh, India.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div>&copy; 2026 Peakoo Academy &amp; Peakoo Agency. All rights reserved.</div>
+        <div>Built with precision for next-gen agency builders.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       6. FLOATING WHATSAPP PILL
+       ========================================================================== -->
+  <a href="https://wa.me/919999999999?text=Hi%20Peakoo%20Academy%2C%20I%20want%20to%20inquire%20about%20upcoming%20cohorts!"
+    target="_blank" rel="noopener" class="floating-whatsapp-pill" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path
+        d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.634.073-1.042-.061-.83-.274-1.895-.87-2.671-1.646-.775-.776-1.371-1.841-1.646-2.671-.135-.408-.106-.73-.061-1.042.049-.333.418-1.026.823-1.17.153-.054.306-.081.458-.081.258 0 .426.046.541.319.144.341.488 1.19.532 1.279.044.089.073.193.015.31-.059.117-.089.19-.176.293-.088.103-.186.23-.266.309-.089.088-.182.185-.078.363.104.178.463.765.992 1.236.68.606 1.254.793 1.432.882.178.089.282.074.386-.045.104-.118.444-.518.562-.695.118-.178.237-.148.397-.089.16.059 1.018.48 1.194.568.176.088.293.133.337.208.044.075.044.433-.1 1.043z" />
+    </svg>
+    <span>Chat with Us</span>
+  </a>
+
+  <!-- ==========================================================================
+       7. ENROLMENT MODAL
+       ========================================================================== -->
+  <div class="modal-screen-overlay" id="enrolModal" role="dialog" aria-modal="true">
+    <div class="modal-card-container">
+      <button class="modal-x-btn" aria-label="Close modal">&times;</button>
+
+      <div style="margin-bottom: 22px;">
+        <h3 style="font-size: 1.8rem; margin-bottom: 6px;">JOIN THE <span class="text-orange">COHORT</span></h3>
+        <p style="font-size: 14px; color: var(--text-muted);">Reserve your seat for the upcoming live batch. Maximum 20
+          students per cohort.</p>
+      </div>
+
+      <form id="academyEnrolForm">
+        <div class="input-field-group">
+          <label class="input-label-text" for="studentName">Full Name</label>
+          <input type="text" id="studentName" class="text-input-control" placeholder="e.g. Rahul Sharma" required>
+        </div>
+
+        <div class="input-field-group">
+          <label class="input-label-text" for="studentPhone">WhatsApp Number</label>
+          <input type="tel" id="studentPhone" class="text-input-control" placeholder="+91 98765 43210" required>
+        </div>
+
+        <div class="input-field-group">
+          <label class="input-label-text" for="studentEmail">Email Address</label>
+          <input type="email" id="studentEmail" class="text-input-control" placeholder="you@example.com" required>
+        </div>
+
+        <div class="input-field-group">
+          <label class="input-label-text" for="courseSelection">Course / Offer Selection</label>
+          <select id="courseSelection" class="select-input-control" required>
+            <option value="Live Masterclass (₹99)">Live Masterclass (₹99)</option>
+            <option value="All 4 Courses Bundle">All 4 Courses Bundle (₹4,499)</option>
+            <option value="Website Development &amp; Deployment">Website Development &amp; Deployment (₹2,499)</option>
+            <option value="Meta Ads">Meta Ads (₹1,499)</option>
+            <option value="Graphic Designing" selected>Graphic Designing (₹999)</option>
+            <option value="Google Business Profile Setup with AI">Google Business Profile Setup with AI (₹999)</option>
+          </select>
+        </div>
+
+        <div class="input-field-group">
+          <label class="input-label-text" for="tierSelection">Delivery Type &amp; Price</label>
+          <select id="tierSelection" class="select-input-control" required>
+            <option value="Masterclass">Live Masterclass — ₹99</option>
+            <option value="₹4,499">All Four Courses Bundle — ₹4,499</option>
+            <option value="₹2,499">Live Classes (Web Dev) — ₹2,499</option>
+            <option value="₹1,499">Live Classes (Meta Ads) — ₹1,499</option>
+            <option value="₹999" selected>Recorded (Graphic Design / Google Profile) — ₹999</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn-pricing-cta btn-pricing-primary" style="margin-top: 10px;">
+          <span>Submit &amp; Reserve Seat</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </button>
+      </form>
+
+      <div id="formSuccessMessage" style="display: none; text-align: center; padding: 25px 10px;">
+        <div
+          style="width: 58px; height: 58px; border-radius: 50%; background: rgba(37, 211, 102, 0.15); color: #25D366; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px;">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+            <polyline points="20 6 9 17 4 12" />
+          </svg>
+        </div>
+        <h3 style="font-size: 1.5rem; margin-bottom: 8px;">ENROLMENT <span class="text-orange">RECEIVED</span>!</h3>
+        <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 20px;">
+          We've registered your application. Check your email or confirm instantly with our admissions team on WhatsApp.
+        </p>
+        <a id="whatsAppHandoffBtn" href="#" target="_blank" rel="noopener" class="btn-hero-secondary"
+          style="width: 100%; justify-content: center; background: #25D366; border-color: #25D366;">
+          <span>Confirm on WhatsApp</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
